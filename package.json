@@ -1,0 +1,23 @@
+{
+  "name": "javascript_step_by_step",
+  "version": "1.0.0",
+  "description": "Fundamental learning and exercise in Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimotiusAnrez/javascript_step_by_step.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimotiusAnrez/javascript_step_by_step/issues"
+  },
+  "homepage": "https://github.com/TimotiusAnrez/javascript_step_by_step#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
