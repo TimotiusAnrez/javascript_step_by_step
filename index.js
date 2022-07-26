@@ -33,3 +33,5 @@ console.log(fibo(20));
  * master => akar/ batang
  *      fibo => branch/cabang
  */
+
+console.log('ini kenji');
