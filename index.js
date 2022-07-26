@@ -18,15 +18,16 @@
  */
 
 function fibo(n) {
-	let fib = [0, 1]; // [f0, f1]
+  let fib = [0, 1]; // [f0, f1]
 
-	for (let i = 2; i <= n; i++) {
-		fib.push(fib[i - 2] + fib[i - 1]); // f(n-1) + f(n-2)
-	}
+  for (let i = 2; i <= n; i++) {
+    fib.push(fib[i - 2] + fib[i - 1]); // f(n-1) + f(n-2)
+  }
 
-	return fib[n]; // f(n)
+  return fib[n]; // f(n)
 }
 
+console.log("ini berubah karena kodenya diganti");
 console.log(fibo(20));
 
 /**
