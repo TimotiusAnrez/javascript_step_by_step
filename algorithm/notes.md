@@ -75,6 +75,11 @@ Repetition is a construct that allows instruction to be executed multiple times
     -   Tested
     -   Incremented
 
+Example of repetition:
+
+    -   While
+    -   For
+
 ## Example algorithm and pseudocode
 
 ### Problem:
