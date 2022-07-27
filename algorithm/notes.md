@@ -86,13 +86,25 @@ Example of repetition:
 How do we count how many people in the room
 
 ### Algorithm:
-Make a variable to store number of people in the room with initial value of 0
+Make a variable N to store total number of person in the room
+Assign variable N to 0 as initial value
+For each person in the room
+    Set variable N to N + 1
 
 ### Pseudocode:
 ```
 let N = 0
-for each person in a room (for each loop)
-    set N = N + 1
+For each person in the room
+    Set N = N + 1
+```
+
+### Code:
+```js
+let room = [0, 1,2,3,4,5,6,7,8, 9] // scenario we are already in the room
+let n = 0
+room.forEach(element => {
+    n = n + 1
+})
 ```
 
 ## How this help me in programming?
