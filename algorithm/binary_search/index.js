@@ -5,6 +5,8 @@ function binary(arr, n) {
 	while (right >= left) {
 		mid = left + (right - 1) / 2;
 
+		console.log(mid);
+
 		if ((arr[mid] = n)) {
 			return mid;
 		}
@@ -18,4 +20,4 @@ function binary(arr, n) {
 	return -1;
 }
 
-console.log(binary([0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 4));
+console.log(binary([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 4));
