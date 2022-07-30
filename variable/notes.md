@@ -1,6 +1,7 @@
 # Cara mengerjakan exercise
 
 ```
+    - Setelah melakukan git pull, lakukan instalasi package dengan <npm install>
     -   Copy paste folder exercise di folder variable dan namakan sesuai nama kalian
     -   Kerjakan dan setelah kerjakan semua latihan bisa dicoba dengan console.log(panggil fungsi dan masukan argument sesuai dengan property)
     - Bila sudah selesai semua, bisa jalankan
