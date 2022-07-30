@@ -1,12 +1,13 @@
-function exercise1() {
-	let a = 1;
-	let b = 2;
-	let c = 3;
+const exercise1 = require('./exercise1');
+const exercise2 = require('./exercise2');
+const exercise3 = require('./exercise3');
+const exercise4 = require('./exercise4');
+const exercise5 = require('./exercise5');
 
-	//jangan ubah kode diatas
-
-	//jangan ubah return value
-	return [a, b, c];
-}
-
-console.log(exercise1()); //hasil harus berbentuk ini [10,20,30]
+module.exports = {
+	exercise1,
+	exercise2,
+	exercise3,
+	exercise4,
+	exercise5,
+};
