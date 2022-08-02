@@ -4,7 +4,9 @@
   "description": "Fundamental learning and exercise in Javascript",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test-variable":"jest -- variable.test.js",
+    "test-string":"jest -- string.test.js"
   },
   "repository": {
     "type": "git",
