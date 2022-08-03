@@ -3,9 +3,9 @@ function exercise2(arg1, arg2, arg3) {
 
 	//kode diatas tidak boleh diubah
 
-	numr1 = arg1;
-	numer2 = arg2;
-	nomo3 = arg3;
+	num1 = arg1;
+	number2 = arg2;
+	nomor3 = arg3;
 
 	//kode dibawah tidak boleh diubah
 
