@@ -9,4 +9,6 @@ function exercise3(arg1, arg2, arg3) {
 	return [a, b, c]; // hasil adalah [arg1,arg2,arg3]
 }
 
+console.log(exercise3(1, 2, 3));
+
 module.exports = exercise3;

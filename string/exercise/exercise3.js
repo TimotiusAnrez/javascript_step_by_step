@@ -15,9 +15,9 @@ function exercise3(
 	k = sentenceOutput.k,
 ) {
 	let kalimat;
+	//kode diatas jangan diubah
 
-	kalimat = s[0] + p[2] + o[1] + k[2] + s[1] + o[1] + k[2];
-
+	//kode dibawah jangan diubah
 	return kalimat;
 }
 
@@ -26,11 +26,11 @@ module.exports = exercise3;
 /**
  * output yang diharapkan kumpulan huruf dari
  *
- * huruf pertama dari s
- * huruf ketiga dari p
+ * huruf ketiga dari s
+ * huruf pertama dari p
  * huruf kedua dari o
- * huruf ketiga dari k
- * huruf kedua dari s
+ * huruf pertama dari k
+ * huruf pertama dari s
  * huruf kedua dari o
  * huruf ketiga dari k
  */
