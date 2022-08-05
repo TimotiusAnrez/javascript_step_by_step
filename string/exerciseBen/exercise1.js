@@ -15,14 +15,24 @@ function exercise1(
 	o = sentenceOutput.o,
 	k = sentenceOutput.k,
 ) {
-	let kalimat;
+	let kalimat; 
 	// jangan ubah kode diatas
+	
+	
+
+	kalimat = s + ' ' + p + ' ' + o + ' ' + k  + ' ';
+
 
 	// jangan ubah kode dibawah
 	return kalimat;
+
+	
+
+
 }
 
 console.log(exercise1());
+
 
 /**
  * contoh soal
@@ -34,7 +44,5 @@ console.log(exercise1());
  * hasil akan menjadi
  * "budi bermain bola di sore hari"
  */
-
-
 
 module.exports = exercise1;

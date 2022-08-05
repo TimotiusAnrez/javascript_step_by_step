@@ -2,14 +2,15 @@
  * struktur kalimat dalam bahasa indonesia adalah
  * SPOK
  *
- * buat lah kalimat dalam bahasa indonesia yang baik dan benar dengan menggunakan string concatination
+ * buat lah kalimat dalam bahasa indonesia yang baik dan benar
+ * dengan menggunakan string template literaL
  */
 
 const randomSentence = require('./dictionary');
 
 const sentenceOutput = randomSentence();
 
-function exercise1(
+function exercise2(
 	s = sentenceOutput.s,
 	p = sentenceOutput.p,
 	o = sentenceOutput.o,
@@ -17,12 +18,10 @@ function exercise1(
 ) {
 	let kalimat;
 	// jangan ubah kode diatas
-
+	kalimat = `ibu memarahi budi karena, ${s} ${p} ${o} ${k} bersama dengan lina`;
 	// jangan ubah kode dibawah
-	return kalimat;
+	return kalimat; // "ibu memarahi budi karena, <kalimat> bersama dengan lina"
 }
-
-console.log(exercise1());
 
 /**
  * contoh soal
@@ -32,9 +31,9 @@ console.log(exercise1());
  * arg4 = "di sore hari"
  *
  * hasil akan menjadi
- * "budi bermain bola di sore hari"
+ * "ibu memarahi budi karena, budi bermain bola di sore hari bersama dengan lina"
  */
 
+ console.log(exercise2());
 
-
-module.exports = exercise1;
+module.exports = exercise2;
