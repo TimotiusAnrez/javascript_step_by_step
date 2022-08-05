@@ -17,7 +17,7 @@ test('exercise 2: String template exercise', () => {
 	expect(
 		testExercise.exercise2(random2.s, random2.p, random2.o, random2.k),
 	).toEqual(
-		`${random2.s} ${random2.p} ${random2.o} ${random2.k} bersama dengan lina`,
+		`ibu memarahi budi karena, ${random2.s} ${random2.p} ${random2.o} ${random2.k} bersama dengan lina`,
 	);
 });
 
