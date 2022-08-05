@@ -14,7 +14,7 @@ function exercise4(
 ) {
 	let kalimat;
 	//jangan ubah kode diatas
-	kalimat = ``
+	kalimat = `\n ${s} \n ${p} \n ${o} \n ${k}`;
 	//jangan ubah kode dibawah
 	return kalimat;
 }
@@ -29,5 +29,5 @@ function exercise4(
  *  di rumah
  * "
  */
-
+ console.log(exercise4());
 module.exports = exercise4;
