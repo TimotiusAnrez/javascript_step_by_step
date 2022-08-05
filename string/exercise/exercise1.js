@@ -22,7 +22,7 @@ function exercise1(
 	return kalimat;
 }
 
-console.log(exercise1());
+
 
 /**
  * contoh soal
