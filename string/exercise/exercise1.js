@@ -17,7 +17,7 @@ function exercise1(
 ) {
 	let kalimat;
 	// jangan ubah kode diatas
-	kalimat = s + ' ' + p + ' ' + o + ' ' + k;
+
 	// jangan ubah kode dibawah
 	return kalimat;
 }
