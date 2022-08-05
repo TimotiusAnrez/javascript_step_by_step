@@ -70,3 +70,8 @@ test('Exercise 2 = Array method (push)', () => {
 
 	expect(testExercise.exercise2()).toStrictEqual(tasBelanja);
 });
+
+test('Exercise 3 = Array Data Structure Queue', () => {
+	let queue = [''];
+	expect(antrianMcd).toStrictEqual(['David', 'Benneth', 'Hansen']);
+});
