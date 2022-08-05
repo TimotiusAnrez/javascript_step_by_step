@@ -70,12 +70,11 @@ function exercise2() {
 	];
 
 	let tasBelanja = [];
+
 	//jangan ubah kode diatas
 
 	//jangan ubah kode dibawah
 	return tasBelanja;
 }
-
-exercise2();
 
 module.exports = exercise2;
