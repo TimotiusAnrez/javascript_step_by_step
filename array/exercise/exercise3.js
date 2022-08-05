@@ -42,7 +42,7 @@ exercise3(antrianMcd, 'David');
 exercise3(antrianMcd, 'Benneth');
 exercise3(antrianMcd, 'Hansen');
 
-console.log(antrianMcd); // output akan menjadi ini
-
-// const result = (arr = antrianMcd) => arr;
+console.log(antrianMcd); // output akan menjadi ini [
+//	"David","Benneth","Hansen"
+//]
 module.exports = exercise3;

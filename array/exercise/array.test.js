@@ -72,6 +72,59 @@ test('Exercise 2 = Array method (push)', () => {
 });
 
 test('Exercise 3 = Array Data Structure Queue', () => {
-	let queue = [''];
-	expect(antrianMcd).toStrictEqual(['David', 'Benneth', 'Hansen']);
+	let queue = ['Ria Ricis', 'Keanu Angelo', 'Anya Geraldin'];
+	testExercise.exercise3(queue, 'Rachel Venya');
+	testExercise.exercise3(queue, 'Karin Novilda');
+	testExercise.exercise3(queue, 'Fadil Jaidi');
+	expect(queue).toStrictEqual(['Rachel Venya', 'Karin Novilda', 'Fadil Jaidi']);
+});
+
+test('Exercise 4 = Array Data Structure Stack', () => {
+	let stack = [1, 2, 3, 4, 5, 6];
+	testExercise.exercise4(stack, [7, 8, 9, 10]);
+	testExercise.exercise4(stack, [11, 12, 13, 14]);
+	testExercise.exercise4(stack, [15, 16, 17, 18]);
+	testExercise.exercise4(stack, [19, 20, 21, 22]);
+
+	expect(stack).toStrictEqual([1, 2, 3, 4, 5, 6, 7, 11, 15, 19]);
+});
+
+test('Exercise 5 = Array method exercise', () => {
+	let listNama = [
+		'Fay Nabila',
+		'Gege Elisa',
+		'Rizky Amelia',
+		'Chintya Gabriella',
+		'Mega Iskanti',
+		'Shakilla Astari',
+		'Nabila Gardena',
+		'Dindra Nashriyah',
+		'Aghnia Punjabi',
+		'Gina Meidina',
+		'Indah Nada Puspita',
+		'Dwi Handayani',
+		'Zara Arumi',
+		'Rachel Theresia',
+		'Puteri Hasanah Karunia',
+	];
+
+	function solution(arr, input) {
+		let splitList, newList;
+		splitList = arr.map((element) => {
+			return element.split(' ');
+		});
+
+		newList = splitList.filter((element) => {
+			if (element[element.length - 1][0] === input) {
+				return element;
+			} else {
+				return;
+			}
+		});
+		return newList;
+	}
+
+	expect(testExercise.exercise5(listNama, 'N')).toStrictEqual(
+		solution(listNama, 'N'),
+	);
 });
