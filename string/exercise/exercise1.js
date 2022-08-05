@@ -17,7 +17,7 @@ function exercise1(
 ) {
 	let kalimat;
 	// jangan ubah kode diatas
-	
+
 	// jangan ubah kode dibawah
 	return kalimat;
 }

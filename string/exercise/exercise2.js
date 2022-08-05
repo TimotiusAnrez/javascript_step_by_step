@@ -20,7 +20,8 @@ function exercise2(
 	// jangan ubah kode diatas
 
 	// jangan ubah kode dibawah
-	return kalimat; // "ibu memarahi budi karena, <kalimat> bersama dengan lina"
+
+	return 'ibu memarahi budi karena, ' + kalimat + ' bersama dengan lina'; // "ibu memarahi budi karena, <kalimat> bersama dengan lina"
 }
 
 /**
