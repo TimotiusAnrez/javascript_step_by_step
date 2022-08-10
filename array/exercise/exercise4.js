@@ -6,10 +6,10 @@
  * jadi tumpukan piring yang kenji harus cuci bertambah 4 piring per menit
  * coba simulasikan cucian piring Kenji
  *
- * ? Hint: Belajar tentang struktur data queue
+ * ? Hint: Belajar tentang struktur data stack
  */
 
-let tumpukanPiring = [1, 2, 3, 4, 5, 6];
+let tumpukanPiring = [1, 2, 3, 4, 5, 6]; //tumpukan piring sekarang
 
 function exercise4(tumpukan, piring) {
 	//jangan ubah kode diatas
