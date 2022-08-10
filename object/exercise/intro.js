@@ -52,3 +52,16 @@ siswa.tinggi = 169;
 console.log(siswa); // Disini menjadi Tim
 
 //? Coba ubah object siswa menjadi data diri kalian
+
+//! Konsep dari object
+// object terdiri dari property yang terdiri dari key and value pair
+// konsep lebih sederhana anggep object seperti rumah yang dimana setiap ruangan (property),
+// memiliki kunci ruangan (key) dan isi ruangan (value)
+
+let rumah = {
+	kamarTidur1: ['Meja', 'Kursi', 'Kasur', 'AC'], // kamarTidur1 dan ['Meja', 'Kursi', 'Kasur', 'AC'] adalah properti (ruangan)
+	// kamartTidur1 adalah key (kunci ruangan) dan ['Meja', 'Kursi', 'Kasur', 'AC'] adalah isi dari ruangan kamarTidur1
+	kamarTidur2: ['Kloset', 'Wastafel', 'Shower', 'Meja', 'Kursi', 'Kasur', 'AC'],
+};
+
+// ? Coba tambahkan ruangan baru pada object rumah

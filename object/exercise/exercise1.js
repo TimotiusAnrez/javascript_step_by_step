@@ -31,5 +31,5 @@ exercise1('Cecep', 'Laki - Laki', 15, ipa);
 exercise1('Devina', 'Perempuan', 15, ips);
 exercise1('Ellyn', 'Perempuan', 15, ipa);
 exercise1('Fajar', 'Perempuan', 15, ips);
-
+let daftarSiswa = [ipa, ips];
 module.exports = daftarSiswa;
