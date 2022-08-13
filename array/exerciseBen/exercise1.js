@@ -27,6 +27,8 @@ function exercise1() {
 	barisan.splice(4,2);
 
 
+	//t
+
 	
 
 
