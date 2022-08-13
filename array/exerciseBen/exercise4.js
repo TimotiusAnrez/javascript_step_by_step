@@ -14,7 +14,7 @@ let tumpukanPiring = [1, 2, 3, 4, 5, 6];
 function exercise4(tumpukan, piring) {
 	//jangan ubah kode diatas
 	
-	tumpukan.push(piring[0]);
+	tumpukan.push(piring[0]); // coba disimulasiin masuk piring nya 4 dan kluar piring nya 3 pake push dan pop untuk simulasi stack
 
 
 	//jangan ubah kode dibawah
