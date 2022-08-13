@@ -16,10 +16,24 @@
  */
 
 function exercise1() {
-	let barisan = ["Nadya","Andri","Illya","Alya",];
+	let barisan = []; 
 	//jangan ubah kode diatas ini
+	barisan.push("Nadya");
+	barisan.push("Andri");
+	barisan.push("Daniel");
+	barisan.push("Illya");
+	barisan.push("Alya","David","Vannessa");
+	barisan.splice(2,1);
+	barisan.splice(4,2);
+
+
+	//t
+
 	
-	//Belom di kerjain nih
+
+
+
+	
 
 	//jangan ubah kode dibawah ini
 	return barisan; //hasil akhir barisan harus sesuai dengan cerita diatas
