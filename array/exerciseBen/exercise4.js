@@ -13,11 +13,8 @@ let tumpukanPiring = [1, 2, 3, 4, 5, 6];
 
 function exercise4(tumpukan, piring) {
 	//jangan ubah kode diatas
-	let a= piring.shift();
 	
-	tumpukan.push(a);
-	// menarik nih problem solving nya, cuman coba di ubah simulasi nya jadi kaya stack pada umunya gunain push sama pop
-	
+	tumpukan.push(piring[0]);
 
 
 	//jangan ubah kode dibawah

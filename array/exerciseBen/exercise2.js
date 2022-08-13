@@ -72,8 +72,24 @@ function exercise2() {
 	let tasBelanja = [];
 
 	//jangan ubah kode diatas
-	tasBelanja = [lapakSayur[0],lapakSayur[10],lapakSayur[9],lapakSayur[6],lapakBumbu[7],lapakBumbu[2],lapakBumbu[8],lapakBumbu[1],lapakBumbu[6],lapakDaging[0],tokoKelontong[0],tokoKelontong[1],lapakDaging[2],lapakBumbu[8],lapakBumbu[4],lapakSayur[5],tokoKelontong[5]];
-	//Yang ini udah bener, tapi coba dipake push biar simulasiin DRY (Don't repeat yourself)
+	tasBelanja.push(lapakSayur[0]);
+	tasBelanja.push(lapakSayur[10]);
+	tasBelanja.push(lapakSayur[9]);
+	tasBelanja.push(lapakSayur[6]);
+	tasBelanja.push(lapakBumbu[7]);
+	tasBelanja.push(lapakBumbu[2]);
+	tasBelanja.push(lapakBumbu[8]);
+	tasBelanja.push(lapakBumbu[1]);
+	tasBelanja.push(lapakBumbu[6]);
+	tasBelanja.push(lapakDaging[0]);
+	tasBelanja.push(tokoKelontong[0]);
+	tasBelanja.push(tokoKelontong[1]);
+	tasBelanja.push(lapakDaging[2]);
+	tasBelanja.push(lapakBumbu[8]);
+	tasBelanja.push(lapakBumbu[4]);
+	tasBelanja.push(lapakSayur[5]);
+	tasBelanja.push(tokoKelontong[5]);
+
 	
 	
 	//jangan ubah kode dibawah
