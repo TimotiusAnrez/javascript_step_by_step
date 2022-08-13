@@ -19,6 +19,7 @@ function exercise1() {
 	let barisan = ["Nadya","Andri","Illya","Alya",];
 	//jangan ubah kode diatas ini
 	
+	//Belom di kerjain nih
 
 	//jangan ubah kode dibawah ini
 	return barisan; //hasil akhir barisan harus sesuai dengan cerita diatas
