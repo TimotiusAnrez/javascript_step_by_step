@@ -73,6 +73,9 @@ function exercise2() {
 
 	//jangan ubah kode diatas
 	tasBelanja = [lapakSayur[0],lapakSayur[10],lapakSayur[9],lapakSayur[6],lapakBumbu[7],lapakBumbu[2],lapakBumbu[8],lapakBumbu[1],lapakBumbu[6],lapakDaging[0],tokoKelontong[0],tokoKelontong[1],lapakDaging[2],lapakBumbu[8],lapakBumbu[4],lapakSayur[5],tokoKelontong[5]];
+	//Yang ini udah bener, tapi coba dipake push biar simulasiin DRY (Don't repeat yourself)
+	
+	
 	//jangan ubah kode dibawah
 	return tasBelanja;
 }
