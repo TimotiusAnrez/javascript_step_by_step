@@ -16,7 +16,7 @@ function exercise4(tumpukan, piring) {
 	let a= piring.shift();
 	
 	tumpukan.push(a);
-
+	// menarik nih problem solving nya, cuman coba di ubah simulasi nya jadi kaya stack pada umunya gunain push sama pop
 	
 
 
