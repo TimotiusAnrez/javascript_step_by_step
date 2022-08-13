@@ -6,7 +6,7 @@ function exercise1(arg1, arg2, arg3) {
 	c = arg3;
 
 	//kode diatas tidak boleh diubah
-
+	a += 2;
 	//kode dibawah tidak boleh diubah
 	a += 16;
 	b += 20;

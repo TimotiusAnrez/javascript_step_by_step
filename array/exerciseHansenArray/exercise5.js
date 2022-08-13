@@ -25,20 +25,21 @@ let listNama = [
 	'Puteri Hasanah Karunia',
 ];
 
-//	pertama semua nama yang ada di list harus di split
-// looping semua nama di dalam list
-// setiap nama harus di split
-// lalu masukan nama yang sudah di split ke variable yang baru
-//	data yang baru harus di filter karena ingin cari nama yang sesuai sama kriteria
-//	cek semua element di dalam array baru untuk nama belakang nya
-//  bila nama belakang huruf pertama sesuai sama kriteria masukan nama nya kedalam array baru
+// Pertama, semua nama yang ada di list harus di split
+// loopinhg semua nama di dalam list
+// setiap nama harus di spilt
+// lalu masukan nama yang sudah di spilt ke variable yang baru
+// data yang baru harus di filter karena ingin mencari nama yang sesuai
+// cek semua element di dalam array baru untuk nama belakangnya
+// bila nama belakang huruf pertama sesuai dengan kriteria masukan
 // kalau sudah selesai return array yang baru
-// gimana caranya supaya kita SELALU cek nama yang paling belakang
+// pertanyaannya gimana caranya agar kita SELALU cek nama yang paling belakang
 
 function exercise5(arr, alphabetNamaBelakang) {
 	let splitList, newList;
 	//jangan ubah kode diatas
 	splitList = arr.map((element) => element.split(' '));
+	console.log(splitList);
 	newList = splitList.filter((element) => {
 		if (element[element.length - 1][0] === alphabetNamaBelakang) {
 			return element;
@@ -50,6 +51,13 @@ function exercise5(arr, alphabetNamaBelakang) {
 
 console.log(exercise5(listNama, 'G')); //hasil menjadi [ [ 'Chintya', 'Gabriella' ], [ 'Nabila', 'Gardena' ] ]
 console.log(exercise5(listNama, 'P')); // hasil menjadi [ [ 'Aghnia', 'Punjabi' ], [ 'Indah', 'Nada','Puspita' ] ]
-console.log(exercise5(listNama, 'K')); // hasil menjadi [['Rizky', 'Amelia'],['Shakilla', 'Astari'],['Zara', 'Arumi']]
+console.log(exercise5(listNama, 'A'));
+console.log(exercise5(listNama, 'N'));
+console.log(exercise5(listNama, 'E'));
+console.log(exercise5(listNama, 'I'));
+console.log(exercise5(listNama, 'M'));
+console.log(exercise5(listNama, 'H'));
+console.log(exercise5(listNama, 'T'));
+console.log(exercise5(listNama, 'K'));
 
 module.exports = exercise5;
